@@ -6,7 +6,7 @@ import os
 import pytest
 import time
 
-APPLICATION_STACK_NAME = os.getenv('ENV_STACK_NAME', None)
+APPLICATION_STACK_NAME = os.getenv('ENV_STACK_NAME', 'ws-serverless-patterns-dev')
 globalConfig = {}
 
 
